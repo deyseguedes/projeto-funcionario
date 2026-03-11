@@ -12,7 +12,7 @@ $salario = $_POST['salario'];
 if($cargo == "gerente"){
 
     $funcionario = new Gerente();
-
+    
 } else {
 
     $funcionario = new Funcionario();
